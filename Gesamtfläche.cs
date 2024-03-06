@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Flaechen;
+//eventuell wäre Flächenvererbung auch hier möglich.
 public class Gesamtfläche
 {
     List<Fläche> _flächen = new();
