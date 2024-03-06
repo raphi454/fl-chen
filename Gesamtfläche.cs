@@ -22,7 +22,6 @@ public class Gesamtfläche
         {
             sum = sum + _flächen[i].GetFläche();
         }
-
-        return 0;
+        return sum;
     }
 }
